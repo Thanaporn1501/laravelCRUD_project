@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.linkhome {
+    color: #333;
+}
+.linkhome:link {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.menubar {
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menubar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar .logo {
+    flex: 1;
+}
+.menubar .action {
+    display: flex;
+}
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.menubar ul.menu {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.menubar ul.menu li {
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+.menubar ul.login {
+    list-style: none;
+    margin: auto;
+    margin-right: 0;
+}
+.menubar ul.login li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.login li a {
+    text-decoration: none;
+    color: #333;
+}
+.menubar ul.login {
+    list-style: none;
+    display: block;
+    box-sizing: border-box;
+}
+.header {
+    background: #666 url(../img/bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.header_area {
+    padding-top: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+.info1 {
+    width: 100%;
+    height: 400px;
+}
+.info1_area {
+    color: #333;
+}
+.info1_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info1_text {
+    text-align: justify;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+.login button:hover {
+    background: rgb(255, 255, 255);
+    color: #333;
+    border: 2px solid #333;
+}
+footer.home {
+    background: #333;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer.footer2 {
+    background: #333;
+    margin-top: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+}
+
+.login {
+    text-align: center;
+}
+.button1 {
+    background-color: rgb(131, 236, 175);
+    border-radius: 4px;
+    width: 50px;
+    border: 1px solid green;
+}
+.button2 {
+    background-color: #e27c74;
+    border-radius: 4px;
+    width: 55px;
+    border: 1px solid #bb5048;
+}
+
+.product {
+    display: flex;
+    align-items: space-between;
+    margin: 0px 10px;
+}
+
+.cattype {
+    color: rgb(85, 71, 71);
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+.cat-list, .cat-view {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+table.cat-list th {
+    text-align: center;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.all-menu {
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.product-des {
+    margin-top: 40px;
+    padding-left: 300px;
+}
+
+.product-des tr {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.btn-new {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.caption {
+    text-align: center;
+}
+
+.button-cat-view {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1ch;
+}
+.btn-add {
+    text-align: center;
+}
+.btn-add a:link,
+.btn-add a:visited {
+    background-color: #383636;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-add a:hover,
+.btn-adda:active {
+    background-color: rgb(105, 99, 99);
+}
+
+.error {
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+}
+
+.cmp-location-view {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.location-view {
+    margin-top: 10px;
+}
+.newpro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-view {
+    display: flex;
+    justify-content: center;
+}
+
+.cmp {
+    margin-top: 30px;
+}
+
+.map {
+    width: 900px;
+    height: 400px;
+}
+.paginate {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+}
+

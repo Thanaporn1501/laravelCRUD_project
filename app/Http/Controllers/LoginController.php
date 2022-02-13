@@ -24,7 +24,7 @@ class LoginController extends Controller
 
             // redirect to the requested URL or
             // to route product if does not specify
-            return redirect()->intended('product');
+            return redirect()->intended('auth/login');
         }
             // if cannot authenticate redirect back to loginForm
             // with error message.
@@ -35,12 +35,12 @@ class LoginController extends Controller
 
     function logout() {
         Auth::logout();
-        
+
         session()->invalidate();
-        
+
         // regenerate CSRF token
         session()->regenerateToken();
-        
+
         return redirect()->route('login');
     }
 }

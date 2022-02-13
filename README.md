@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/img/logo.jpg" width="200"></a></p>
+<p align="center"><a href="http://nameless-lowlands-49955.herokuapp.com/home" target="_blank"><img src="public/img/logo.jpg" width="200"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>

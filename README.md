@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="img/pic1.jpg" width="400"></a></p>
-=======
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="img/logo.jpg" width="400"></a></p>
 <p align="center"><a href="http://nameless-lowlands-49955.herokuapp.com/home" target="_blank"><img src="public/img/logo.jpg" width="200"></a></p>
->>>>>>> b6513b0a6c7311c8607238a532d94c3c4737424a
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>

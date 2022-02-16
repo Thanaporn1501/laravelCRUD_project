@@ -39,13 +39,13 @@
                     </ul>
                     @endauth
                 </div>
-            </div>               
+            </div>
         </div>
     </header>
-       
+
     <main>
             @yield('content')
-    </main>  
+    </main>
 </body>
 </html>
 

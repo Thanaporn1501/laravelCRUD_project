@@ -24,7 +24,7 @@ class LoginController extends Controller
 
             // redirect to the requested URL or
             // to route product if does not specify
-            return redirect()->intended('auth/login');
+            return redirect()->intended('home');
         }
             // if cannot authenticate redirect back to loginForm
             // with error message.

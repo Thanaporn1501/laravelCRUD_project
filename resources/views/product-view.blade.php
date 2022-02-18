@@ -7,7 +7,6 @@
             <a href="{{ route('product-list') }}"><span class="glyphicon glyphicon-chevron-left"></span> Back </a>
         </button>
     </div>
-
     <main>
         <div class="product-view">
             <div class="col-lg-8">
